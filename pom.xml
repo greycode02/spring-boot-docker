@@ -86,6 +86,20 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		    <repository>
+		      <id>nexus</id>
+		      <name>Landmark Technologies Releases Nexus Repository</name>
+		      <url>http://172.17.0.1:8000/repository/BMORELEASE/</url>
+		    </repository>
+		    
+		    <snapshotRepository>
+		      <id>nexus</id>
+		      <name>Landmark Technologies Snapshot Nexus Repository </name>
+		      <url>http://172.17.0.1:8000/repository/BMOSNAPSHOT/</url>
+		    </snapshotRepository>
+		    
+		</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
